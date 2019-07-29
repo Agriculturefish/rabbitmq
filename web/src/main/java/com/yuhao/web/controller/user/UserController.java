@@ -25,17 +25,6 @@ public class UserController {
     private void initParameter(Model model){
          model.addAttribute("name",userService.findById("1"));
          rabbitmqService.sendMsg("用户："+userService.findById("1")+"登录！");
-        try {
-            Object obj = Class.forName("com.yuhao.web.controller.user.UserController").newInstance();
-            System.out.println(System.identityHashCode(obj)+name);
-            name = "yuhao";
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
 //    	 model.addAttribute("name","yuhao");
     }
 
