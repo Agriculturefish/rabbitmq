@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yuhao</groupId>
+  <artifactId>learnrabbitmq</artifactId>
+  <version>V1</version>
+  <packaging>pom</packaging>
+  <name>rabbitmq</name>
+  <description>com.yuhao.learnrabbitmq</description>
+  
+   <!-- SpringBoot 父工程 引入版本 -->
+   <parent>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-parent</artifactId>
+       <version>2.0.3.RELEASE</version>
+       <relativePath/>
+   </parent>
+  
+   <!--定义常量-->
+   <properties>
+       <sourceEncoding>UTF-8</sourceEncoding>
+       <outputEncoding>UTF-8</outputEncoding>
+       <javaversion>1.8</javaversion>
+       <!--定义各子模块的版本-->
+       <dao.version>0.0.1</dao.version>
+       <util.version>0.0.1</util.version>
+       <business.version>0.0.1</business.version> 
+       <web.version>0.0.1</web.version>
+   </properties>
+   
+   <modules>
+   	<module>web</module>
+   	<module>business</module>
+   	<module>dao</module>
+   	<module>util</module>
+   </modules>
+   
+    <dependencies>
+     <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.2</version>
+          <scope>provided</scope>
+      </dependency>
+   </dependencies>
+   
+   <!-- 统一管理依赖的版本号(含子项目及公共依赖) -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- alibaba fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.51</version>
+            </dependency>
+            <!-- httpclient -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.5</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpmime</artifactId>
+                <version>4.5.5</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.8.1</version>
+            </dependency>
+            <!-- WEB 子项目-->
+            <dependency>
+                <groupId>com.yuhao</groupId>
+                <artifactId>web</artifactId>
+                <version>${web.version}</version>
+            </dependency>
+              <!-- business 子项目-->
+			<dependency>
+                <groupId>com.yuhao</groupId>
+                <artifactId>business</artifactId>
+                <version>${business.version}</version>
+            </dependency>
+             <!-- DAO 子项目-->
+ 			<dependency>
+              <groupId>com.yuhao</groupId>
+              <artifactId>dao</artifactId>
+              <version>${dao.version}</version>
+            </dependency>
+            <!-- UTIL 子项目-->
+ 			<dependency>
+              <groupId>com.yuhao</groupId>
+              <artifactId>util</artifactId>
+              <version>${util.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+   
+</project>

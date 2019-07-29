@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.yuhao</groupId>
+    <artifactId>learnrabbitmq</artifactId>
+    <version>V1</version>
+  </parent>
+  
+  <artifactId>dao</artifactId>
+   <version>${dao.version}</version>
+  <name>dao</name>
+  <url>http://maven.apache.org</url>
+  <packaging>jar</packaging> 
+   
+   
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>${javaversion}</java.version>
+  </properties>
+  
+  <dependencies>
+ <!-- 核心依赖，包括auto-configuration , logging和YAML -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+     <!-- alibaba fastjson -->
+     <dependency>
+         <groupId>com.alibaba</groupId>
+         <artifactId>fastjson</artifactId>
+     </dependency>
+     <!-- apache commons工具包 (日期、异常、数学、多线程并发、事件、构造、反射、元组、文本)-->
+     <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+     </dependency>
+     <!-- 用于操作JAVA BEAN的工具包 -->
+     <dependency>
+           <groupId>commons-beanutils</groupId>
+           <artifactId>commons-beanutils</artifactId>
+           <version>1.9.3</version>
+           <scope>compile</scope>
+     </dependency>
+     <!-- test -->
+     <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-test</artifactId>
+           <scope>test</scope>
+       </dependency>
+       <!-- JPA(Java Persistence API)意即Java持久化API -->
+      <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+	<dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-jpa</artifactId>
+	</dependency>
+	 <!-- https://mvnrepository.com/artifact/org.eclipse.persistence/javax.persistence -->
+     <dependency>
+         <groupId>org.eclipse.persistence</groupId>
+         <artifactId>javax.persistence</artifactId>
+         <version>2.2.1</version>
+     </dependency>
+     <!--后台分页 依赖 插件-->
+     <dependency>
+         <groupId>com.github.pagehelper</groupId>
+         <artifactId>pagehelper-spring-boot-starter</artifactId>
+         <version>1.2.5</version>
+     </dependency>
+     
+    <dependency>
+           <groupId>org.hibernate</groupId>
+           <artifactId>hibernate-core</artifactId>
+     </dependency>
+      
+     <dependency>
+           <groupId>com.fasterxml.jackson.core</groupId>
+           <artifactId>jackson-annotations</artifactId>
+           <version>2.8.0</version>
+      </dependency>
+	   
+    </dependencies>
+    
+</project>

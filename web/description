@@ -1,0 +1,35 @@
+**************SpringBoot******************
+1.说明：SpringBoot为例，目前国内项目应用广泛的连接池是阿里的Druid。很遗憾，springboot暂未对该连接池提供支持，
+要想在springboot工程中使用阿里的连接池，你得使用springboot自定义配置（定义驱动、连接地址、用户名、密码等属性），
+再生成一个JavaBean，再将配置属性注入到bean中，还要注入启动加载等等系列工作，最后发现代码多了一大堆。
+再如，如果将SpringBoot工程部署到weblogic容器又得面临一大堆兼容问题，还好SpringBoot官方提供了补丁包。
+这只是简单举例，要想在大型项目中使用SpringBoot还有更长的路要走，因为大工程牵连体系庞大，需要技术兼容和稳定性也更高。
+
+小提示:SpringBoot目前支持的连接池有HikariCP、DBCP 、DBCP2 。
+2. spring-boot-starter-*依赖介绍
+spring-boot-starter-*起步依赖是SpringBoot核心之处，它提供了Spring和相关技术提供一站式服务，让开发者不在关心Spring相关配置，
+简化了传统的依赖注入操作，当然开发者也可通过application.properties文件自定义配置。 
+SpringBoot常规启动都遵循类似的命名模式spring-boot-starter-*，其中*是一种指定类型的应用程序，如spring-boot-starter-web表示应用程序依赖SpringWeb相关内容。
+另外，SpringBoot支持第三方插件引用,第三方启动程序通常以项目的名称开始。例如，mybatis依赖插件引用为mybatis-spring-boot-starter。
+
+
+
+*************hibernate*******************
+hibernate 框架用到的jar包：=======================Request文件夹下的：
+hibernate-core-5.2.12.Final.jar =======================核心组件
+antlr-2.7.7.jar=====================================词法分析器 实现HQL语句到SQL转换
+classmate-1.3.0.jar================================对属性和方法的解析
+dom4j-1.6.1.jar===================================xml解析器
+hibernate-commons-annotations-5.0.1.Final.jar==========注解翻译
+hibernate-jpa-2.1-api-1.0.0.Final.jar====================持久化关系映射 jpa/orm标准接口
+javassist-3.20.0-GA.jar==============================java字节编码器
+jboss-transaction-api_1.2_spec-1.0.1.Final.jar===========事务处理
+================================================================================================
+slf4j-api  日志输出
+commons-collections 集合类
+=================================================================================
+链接oracle数据用的包：
+Oracle:oracle数据库包
+
+
+

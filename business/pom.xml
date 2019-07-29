@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.yuhao</groupId>
+    <artifactId>learnrabbitmq</artifactId>
+    <version>V1</version>
+  </parent>
+  
+  <groupId>com.yuhao</groupId>
+  <artifactId>business</artifactId>
+  <version>${business.version}</version>
+  <name>business</name>
+  <url>http://maven.apache.org</url>
+  <packaging>jar</packaging> 
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>${javaversion}</java.version>
+  </properties>
+  
+  <dependencies>
+  
+    <!--引用 Dao 项目 -->
+     <dependency>
+         <groupId>com.yuhao</groupId>
+         <artifactId>dao</artifactId>
+     </dependency>
+     <!--引用 Util 项目 -->
+     <dependency>
+         <groupId>com.yuhao</groupId>
+         <artifactId>util</artifactId>
+     </dependency>
+    <!-- 核心依赖，包括auto-configuration , logging和YAML -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+     <!-- alibaba fastjson -->
+     <dependency>
+         <groupId>com.alibaba</groupId>
+         <artifactId>fastjson</artifactId>
+     </dependency>
+     <!-- apache commons工具包 (日期、异常、数学、多线程并发、事件、构造、反射、元组、文本)-->
+     <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+     </dependency>
+     <!-- 用于操作JAVA BEAN的工具包 -->
+     <dependency>
+           <groupId>commons-beanutils</groupId>
+           <artifactId>commons-beanutils</artifactId>
+           <version>1.9.3</version>
+           <scope>compile</scope>
+     </dependency>
+  </dependencies>
+  
+</project>
