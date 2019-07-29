@@ -1,6 +1,7 @@
 
 package com.yuhao.web.controller.user;
 
+import com.yuhao.business.function.FunctionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,21 +22,13 @@ public class UserController {
     UserService userService;
     @Autowired
     RabbitmqService rabbitmqService;
+    @Autowired
+    FunctionService functionService;
     //初始化下拉框
     private void initParameter(Model model){
          model.addAttribute("name",userService.findById("1"));
-         rabbitmqService.sendMsg("用户："+userService.findById("1")+"登录！");
-        try {
-            Object obj = Class.forName("com.yuhao.web.controller.user.UserController").newInstance();
-            System.out.println(System.identityHashCode(obj)+name);
-            name = "yuhao";
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+         // rabbitmqService.sendMsg("用户："+userService.findById("1")+"登录！");
+        functionService.init();
 //    	 model.addAttribute("name","yuhao");
     }
 
