@@ -1,0 +1,14 @@
+com\yuhao\web\config\MySQL5DialectUTF8.class
+com\yuhao\web\config\JavaConfig.class
+com\yuhao\Application.class
+com\yuhao\web\config\WislyConfig.class
+com\yuhao\web\config\TaskSchedulerConfig.class
+com\yuhao\web\controller\user\UserController.class
+com\yuhao\web\common\LogService.class
+com\yuhao\web\config\TaskExecutorConfig.class
+com\yuhao\web\annotation\WislyConfiguration.class
+com\yuhao\web\bean\copy\LoginBean.class
+com\yuhao\web\controller\LoginController.class
+com\yuhao\web\config\ConditionalConfig.class
+com\yuhao\web\service\DemoService.class
+com\yuhao\web\bean\LoginBean.class

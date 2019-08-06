@@ -1,6 +1,9 @@
 
 package com.yuhao.web.controller;
 
+import com.wisely.service.HelloService;
+import com.yuhao.business.annotation.WislyService;
+import com.yuhao.business.login.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,15 +13,18 @@ import com.yuhao.web.common.LogService;
 
 @Controller
 public class LoginController {
-	 @Autowired
-	 LogService log;
-	 
-	 //加载查询页面
+    @Autowired
+    LogService log;
+    @Autowired
+    HelloService helloService;
+    //加载查询页面
     @GetMapping("/index")
     public String index(Model model){
-        log.info("/index  首页页面");
+        log.info("/index  首页页面"+helloService.sayHello());
         return "index";
     }
+
+
 }
 
       
