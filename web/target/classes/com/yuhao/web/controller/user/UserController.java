@@ -22,13 +22,11 @@ public class UserController {
     UserService userService;
     @Autowired
     RabbitmqService rabbitmqService;
-    @Autowired
-    FunctionService functionService;
+
     //初始化下拉框
     private void initParameter(Model model){
          model.addAttribute("name",userService.findById("1"));
-         // rabbitmqService.sendMsg("用户："+userService.findById("1")+"登录！");
-        functionService.init();
+         rabbitmqService.sendMsg("用户："+userService.findById("1")+"登录！");
 //    	 model.addAttribute("name","yuhao");
     }
 

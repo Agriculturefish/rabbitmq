@@ -53,7 +53,7 @@
    var onError = function(message){
        $("<p>"+message.body+"</p>").notify({stay:10000});
    };
-   client.connect("yuhao","290010",onConnect,onError);
+   client.connect("yh","290010",onConnect,onError);
    client.heartbeat.incoming = 5000;
    client.heartbeat.outgoing = 5000;
 </script>
