@@ -2,41 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac02cd7-4a82-439c-89f3-99486a853182" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/.keystore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/annotation/SubToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/HttpsConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebSocketConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/interceptor/AvoidDuplicateSubmissionInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/token/TokenProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/ehcache.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_javax_persistence_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/resources/.keystore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/.keystore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/BusApplication.class" afterPath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/BusApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/async/AsyncTaskService.class" afterPath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/async/AsyncTaskService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/conditional/LinuxCondition.class" afterPath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/conditional/LinuxCondition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/conditional/WindowsCondition.class" afterPath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/conditional/WindowsCondition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/rabbitmq/RabbitmqService.class" afterPath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/rabbitmq/RabbitmqService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/user/UserService.class" afterPath="$PROJECT_DIR$/business/target/classes/com/yuhao/business/user/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/model/TUserEntity.class" afterPath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/model/TUserEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/pojo/RequestMessage.class" afterPath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/pojo/RequestMessage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/pojo/ResponseMessage.class" afterPath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/pojo/ResponseMessage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/vo/UserVo.class" afterPath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/domain/vo/UserVo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/repository/IUserRepository.class" afterPath="$PROJECT_DIR$/dao/target/classes/com/yuhao/dao/repository/IUserRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/target/classes/com/yuhao/util/rabbitmq/config/RabbitMqConfig.class" afterPath="$PROJECT_DIR$/util/target/classes/com/yuhao/util/rabbitmq/config/RabbitMqConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/target/classes/com/yuhao/util/rabbitmq/user/RabbitMqSender.class" afterPath="$PROJECT_DIR$/util/target/classes/com/yuhao/util/rabbitmq/user/RabbitMqSender.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/target/classes/com/yuhao/util/rabbitmq/user/Receiver.class" afterPath="$PROJECT_DIR$/util/target/classes/com/yuhao/util/rabbitmq/user/Receiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/Application.class" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/common/LogService.class" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/common/LogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/config/WebMvcConfig.class" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/config/WebMvcConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/LoginController.class" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/user/UserController.class" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/user/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/servlet/WebListener.class" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/servlet/WebListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/test-classes/com/yuhao/AppTest.class" afterPath="$PROJECT_DIR$/web/target/test-classes/com/yuhao/AppTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/business.iml" afterPath="$PROJECT_DIR$/business/business.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/pom.xml" afterPath="$PROJECT_DIR$/business/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/user/UserService.java" afterPath="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/user/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/dao.iml" afterPath="$PROJECT_DIR$/dao/dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnrabbitmq.iml" afterPath="$PROJECT_DIR$/learnrabbitmq.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/util.iml" afterPath="$PROJECT_DIR$/util/util.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/pom.xml" afterPath="$PROJECT_DIR$/dao/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/domain/model/TUserEntity.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/domain/model/TUserEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/repository/IUserRepository.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/repository/IUserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/common/LogService.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/common/LogService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/LoginController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/web/src/main/resources/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/resources/application-prod.properties" afterPath="$PROJECT_DIR$/web/src/main/resources/application-prod.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/resources/templates/user/user.html" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/user/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/test/java/com/yuhao/AppTest.java" afterPath="$PROJECT_DIR$/web/src/test/java/com/yuhao/AppTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/web/target/classes/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/application-prod.properties" afterPath="$PROJECT_DIR$/web/target/classes/application-prod.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/application.properties" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/Application.java" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/common/LogService.java" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/common/LogService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/config/WebMvcConfig.java" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/config/WebMvcConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/LoginController.java" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/user/UserController.java" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/controller/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/servlet/WebListener.java" afterPath="$PROJECT_DIR$/web/target/classes/com/yuhao/web/servlet/WebListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/web/target/classes/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/templates/user/user.html" afterPath="$PROJECT_DIR$/web/target/classes/templates/user/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/test-classes/com/yuhao/AppTest.java" afterPath="$PROJECT_DIR$/web/target/test-classes/com/yuhao/AppTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/dao/target/" />
@@ -67,68 +102,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              <folding>
-                <element signature="e#2053#2292#0" expanded="false" />
-                <element signature="e#2320#2475#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="115">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="282">
+              <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business/src/main/java/com/yuhao/business/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ehcache.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/ehcache.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -137,9 +145,21 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="253">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <marker date="1567500814631" expanded="true" signature="790:988" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +182,9 @@
       <find>Receiver</find>
       <find>Exchange</find>
       <find>/in</find>
+      <find>add</find>
+      <find>logstashlistname</find>
+      <find>cache</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,20 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/resources/static/js/message/sendMessage_single.js" />
-        <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/BusApplication.java" />
-        <option value="$PROJECT_DIR$/business/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/test/java/com/yuhao/AppTest.java" />
-        <option value="$PROJECT_DIR$/business/src/test/java/com/yuhao/business/async/AsyncTaskTest.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/TaskExecutorConfig.java" />
-        <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/async/AsyncTaskService.java" />
-        <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/function/FunctionService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/MySQL5DialectUTF8.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/TaskScheduledConfig.java" />
-        <option value="$PROJECT_DIR$/web/src/test/java/com/yuhao/AsyncTaskTest.java" />
-        <option value="$PROJECT_DIR$/web/src/test/java/com/yuhao/TaskScheduledTest.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/JavaConfig.java" />
-        <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/conditional/WindowsCondition.java" />
         <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/conditional/inter/ListService.java" />
         <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/conditional/imple/LinuxListService.java" />
         <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/conditional/imple/WindowsListService.java" />
@@ -212,20 +221,34 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WislyConfig.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/com/yuhao/AnnotationTest.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/common/LogService.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebServlet.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/HttpsConfig.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/repository/IUserRepository.java" />
+        <option value="$PROJECT_DIR$/dao/pom.xml" />
+        <option value="$PROJECT_DIR$/business/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/test/java/com/yuhao/AppTest.java" />
+        <option value="$PROJECT_DIR$/util/src/main/java/com/yuhao/util/token/TokenProcessor.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/annotation/SubToken.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/token/TokenProcessor.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/templates/user/user.html" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/interceptor/AvoidDuplicateSubmissionInterceptor.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/domain/model/TUserEntity.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/common/LogService.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/business/src/main/java/com/yuhao/business/user/UserService.java" />
       </list>
     </option>
   </component>
@@ -268,7 +291,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1161" />
@@ -292,10 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,6 +326,22 @@
             <path>
               <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,33 +356,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yuhao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnrabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yuhao" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnrabbitmq" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +369,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,25 +387,26 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar!/" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Program Files\ECLIPSEJ2EE\DVTEBOSS\learnrabbitmq\web\src\main\resources" />
-      <recent name="D:\Program Files\ECLIPSEJ2EE\DVTEBOSS\learnrabbitmq\web\src\main\resources\static\js\message" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yuhao.util.rabbitmq.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program Files\ECLIPSEJ2EE\DVTEBOSS\learnrabbitmq\web\src\main\resources" />
       <recent name="D:\Program Files\ECLIPSEJ2EE\DVTEBOSS\learnrabbitmq\web\src\main\resources\static\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuhao.web.token" />
       <recent name="com.yuhao.web.config" />
       <recent name="com.yuhao.web.service" />
       <recent name="com.yuhao.web.annotation" />
       <recent name="com.yuhao.business.annotation" />
-      <recent name="com.yuhao" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.yuhao.util.rabbitmq.config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\ECLIPSEJ2EE\DVTEBOSS\learnrabbitmq\web\src\main\resources" />
+      <recent name="D:\Program Files\ECLIPSEJ2EE\DVTEBOSS\learnrabbitmq\web\src\main\resources\static\js\message" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -442,6 +455,50 @@
       <module name="web" />
       <envs />
     </configuration>
+    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yuhao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yuhao.AppTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="web" />
+      <envs />
+    </configuration>
+    <configuration name="AppTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yuhao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="web" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yuhao" />
+      <option name="MAIN_CLASS_NAME" value="com.yuhao.AppTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="AppTest.testAsyncTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -470,44 +527,6 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuhao.Application" />
-      <module name="web" />
-      <envs />
-    </configuration>
-    <configuration name="AsyncTaskTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yuhao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuhao.AsyncTaskTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="web" />
-      <envs />
-    </configuration>
-    <configuration name="ConditionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yuhao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuhao.ConditionalTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="web" />
       <envs />
     </configuration>
@@ -614,18 +633,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testAsyncTask" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AsyncTaskTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TaskScheduledTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConditionalTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AnnotationTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TaskScheduledTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AnnotationTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AppTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AppTest.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AnnotationTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TaskScheduledTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ConditionalTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AsyncTaskTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest.testAsyncTask" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AppTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testAsyncTask" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AnnotationTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TaskScheduledTest" />
       </list>
     </recent_temporary>
   </component>
@@ -657,12 +676,28 @@
       <workItem from="1564988493440" duration="2708000" />
       <workItem from="1565056739229" duration="24166000" />
       <workItem from="1565141465570" duration="940000" />
-      <workItem from="1565142448043" duration="12551000" />
+      <workItem from="1565142448043" duration="12665000" />
+      <workItem from="1565227203338" duration="8275000" />
+      <workItem from="1565343121214" duration="2609000" />
+      <workItem from="1566185997641" duration="8724000" />
+      <workItem from="1566264928971" duration="607000" />
+      <workItem from="1566349531073" duration="9762000" />
+      <workItem from="1567491128107" duration="9502000" />
+      <workItem from="1567503791491" duration="1097000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="AppTest_main - 2019.08.21 at 10h 15m 14s.xml">
+      <configuration name="AppTest.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_main - 2019.09.03 at 14h 51m 11s.xml">
+      <configuration name="AppTest.main" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="AppTest_testAsyncTask - 2019.07.29 at 19h 13m 04s.xml">
+      <configuration name="AppTest.testAsyncTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAsyncTask - 2019.08.21 at 10h 12m 31s.xml">
       <configuration name="AppTest.testAsyncTask" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AsyncTaskTest_testAsyncTask - 2019.07.29 at 19h 10m 08s.xml">
@@ -670,7 +705,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153391000" />
+    <option name="totallyTimeSpent" value="194081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,32 +717,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1035" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1035" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03973105" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03973105" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32150775" sideWeight="0.2903423" order="0" side_tool="true" content_ui="tabs" x="803" y="488" width="132" height="42" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16687042" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1393643" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1393643" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54908675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53995436" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61503416" sideWeight="0.49755502" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41438356" sideWeight="0.49755502" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49755502" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1856492" sideWeight="0.7096577" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53196347" sideWeight="0.7096577" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49511003" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49755502" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19865526" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913203" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -734,390 +769,123 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="9" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression=" request.getSession(false)" />
+        <watch expression="serverToken" />
+        <watch expression="clinetToken" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/com/yuhao/AnnotationTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0.0/spring-boot-starter-hello-1.0.0.jar!/com/wisely/config/HelloServiceAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="234">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business/src/main/java/com/yuhao/business/rabbitmq/RabbitmqService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0.0/spring-boot-starter-hello-1.0.0.jar!/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar!/org/openxmlformats/schemas/presentationml/x2006/main/CTSlide.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="1002" column="25" lean-forward="false" selection-start-line="1002" selection-start-column="16" selection-end-line="1002" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        <state relative-caret-position="23">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0.0/spring-boot-starter-hello-1.0.0.jar!/com/wisely/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0.0/spring-boot-starter-hello-1.0.0.jar!/com/wisely/config/HelloServiceAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0.0/spring-boot-starter-hello-1.0.0.jar!/com/wisely/config/HelloServiceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/TaskExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE-sources.jar!/org/springframework/context/annotation/ImportSelector.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/TaskSchedulerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/src/main/java/com/yuhao/business/conditional/inter/ListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/com/yuhao/ConditionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="97" lean-forward="false" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/src/main/java/com/yuhao/business/conditional/WindowsCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/ConditionalConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="207">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/SpringBootCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.yuhao:business:0.0.1">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.yuhao:business:0.0.1</OriginalElement>
-          <nodes>
-            <node x="" y="">com.yuhao:business:0.0.1</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework.data:spring-data-commons:jar:2.0.8.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-orm:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-orm:jar:5.0.7.RELEASE/org.springframework:spring-jdbc:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE/org.springframework:spring-expression:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-beans:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.aspectj:aspectjrt:jar:1.8.13</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.eclipse.persistence:javax.persistence:jar:2.2.1</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.3.RELEASE</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.3.RELEASE/com.zaxxer:HikariCP:jar:2.7.9</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.2</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis:mybatis:jar:3.4.6</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis:mybatis-spring:jar:1.3.2</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/com.github.pagehelper:pagehelper-spring-boot-autoconfigure:jar:1.2.5</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/com.github.pagehelper:pagehelper:jar:5.1.4</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.5/com.github.pagehelper:pagehelper:jar:5.1.4/com.github.jsqlparser:jsqlparser:jar:1.0</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.2.Final</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/org.javassist:javassist:jar:3.22.0-GA</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/org.jboss:jandex:jar:2.0.3.Final</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/org.hibernate:hibernate-core:jar:5.2.17.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
-            <node x="" y="">com.yuhao:dao:jar:0.0.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE/org.springframework:spring-messaging:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.0.4.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.0.4.RELEASE/org.springframework.amqp:spring-amqp:jar:2.0.4.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.0.4.RELEASE/com.rabbitmq:amqp-client:jar:5.1.2</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.0.4.RELEASE/org.springframework:spring-web:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-amqp:jar:2.0.3.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.0.4.RELEASE/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.8.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.8.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.0.8.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.8.RELEASE/org.springframework:spring-oxm:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.8.RELEASE/org.springframework:spring-context-support:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.projectreactor:reactor-core:jar:3.1.8.RELEASE</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.projectreactor:reactor-core:jar:3.1.8.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.2</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.netty:netty-common:jar:4.1.25.Final</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.netty:netty-transport:jar:4.1.25.Final</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.netty:netty-transport:jar:4.1.25.Final/io.netty:netty-buffer:jar:4.1.25.Final</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.netty:netty-transport:jar:4.1.25.Final/io.netty:netty-resolver:jar:4.1.25.Final</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.netty:netty-handler:jar:4.1.25.Final</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.3.RELEASE/io.lettuce:lettuce-core:jar:5.0.4.RELEASE/io.netty:netty-handler:jar:4.1.25.Final/io.netty:netty-codec:jar:4.1.25.Final</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi:jar:3.17</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi:jar:3.17/commons-codec:commons-codec:jar:1.11</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi:jar:3.17/org.apache.commons:commons-collections4:jar:4.1</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi-ooxml:jar:3.17</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi-ooxml:jar:3.17/org.apache.poi:poi-ooxml-schemas:jar:3.17</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi-ooxml:jar:3.17/org.apache.poi:poi-ooxml-schemas:jar:3.17/org.apache.xmlbeans:xmlbeans:jar:2.6.0</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi-ooxml:jar:3.17/org.apache.poi:poi-ooxml-schemas:jar:3.17/org.apache.xmlbeans:xmlbeans:jar:2.6.0/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/org.apache.poi:poi-ooxml:jar:3.17/com.github.virtuald:curvesapi:jar:1.04</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.6</node>
-            <node x="" y="">com.yuhao:util:jar:0.0.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.6/com.fasterxml.jackson.core:jackson-core:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE/org.springframework:spring-jcl:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">com.alibaba:fastjson:jar:1.2.51</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.8.1</node>
-            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3</node>
-            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-test:jar:2.0.3.RELEASE</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework:spring-test:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.18.2</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.28777589134125636" x="1483.0" y="1168.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnWebApplicationCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="79" column="81" lean-forward="true" selection-start-line="79" selection-start-column="81" selection-end-line="79" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0-SNAPSHOT/spring-boot-starter-hello-1.0-SNAPSHOT.jar!/com/wisely/config/HelloServiceAutoConfiguration.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0-SNAPSHOT/spring-boot-starter-hello-1.0-SNAPSHOT.jar!/com/wisely/config/HelloServiceAutoConfiguration.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0-SNAPSHOT/spring-boot-starter-hello-1.0-SNAPSHOT.jar!/com/wisely/service/HelloService.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <marker date="1565063200233" expanded="true" signature="724:922" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0-SNAPSHOT/spring-boot-starter-hello-1.0-SNAPSHOT.jar!/com/wisely/service/HelloService.class" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar!/org/hibernate/dialect/MySQL5Dialect.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.0.7.RELEASE/spring-websocket-5.0.7.RELEASE.jar!/org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurationSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="28" column="64" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.8.RELEASE/spring-data-jpa-2.0.8.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/domain/pojo/ResponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/domain/pojo/RequestMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/MySQL5DialectUTF8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="345">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/softwares/Java/jdk1.8.0_151/src.zip!/java/lang/Deprecated.java">
+    <entry file="file://$PROJECT_DIR$/dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar!/org/hibernate/dialect/MySQL5InnoDBDialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13248">
-          <caret line="277" column="80" lean-forward="false" selection-start-line="277" selection-start-column="67" selection-end-line="277" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/Java/jdk1.8.0_151/src.zip!/java/text/DateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="349" column="76" lean-forward="true" selection-start-line="349" selection-start-column="76" selection-end-line="349" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/common/LogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/embedded/TomcatWebServerFactoryCustomizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/format/WebConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/TomcatServletWebServerFactoryCustomizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="689" column="0" lean-forward="false" selection-start-line="689" selection-start-column="0" selection-end-line="689" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="140" column="30" lean-forward="false" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/user/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="23">
+          <caret line="60" column="51" lean-forward="false" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="391">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1125,47 +893,12 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/src/main/java/com/yuhao/business/function/FunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/bean/SubToken.java" />
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/yuhao/util/token/TokenProcessor.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1174,39 +907,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java">
+    <entry file="file://$PROJECT_DIR$/web/web.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="230">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/annotation/WislyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="166" column="50" lean-forward="true" selection-start-line="166" selection-start-column="50" selection-end-line="166" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/com/yuhao/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/servlet/WebListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/token/TokenProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="489" column="53" lean-forward="true" selection-start-line="489" selection-start-column="53" selection-end-line="489" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/wisely/spring-boot-starter-hello/1.0.0/spring-boot-starter-hello-1.0.0.jar!/com/wisely/service/HelloService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="434" column="51" lean-forward="true" selection-start-line="434" selection-start-column="51" selection-end-line="434" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/user/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/annotation/SubToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/interceptor/AvoidDuplicateSubmissionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/repository/IUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yuhao/dao/domain/model/TUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/common/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35-sources.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="27" column="70" lean-forward="true" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="e#2053#2292#0" expanded="false" />
-            <element signature="e#2320#2475#0" expanded="false" />
+            <marker date="1567500814631" expanded="true" signature="790:988" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuhao/web/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="253">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/src/main/java/com/yuhao/business/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="282">
+          <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

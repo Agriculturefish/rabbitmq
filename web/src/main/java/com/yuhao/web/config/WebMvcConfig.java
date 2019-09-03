@@ -1,10 +1,12 @@
 package com.yuhao.web.config;
 
+import com.yuhao.web.interceptor.AvoidDuplicateSubmissionInterceptor;
 import com.yuhao.web.servlet.WebListener;
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
@@ -23,14 +25,25 @@ public class WebMvcConfig  extends WebMvcConfigurationSupport{
         registry.addViewController("/ice").setViewName("index");
     }
 
-    @Bean
-    public WebListener webListener(){
-        return new WebListener();
+    @Override
+    public void addInterceptors(InterceptorRegistry registry){
+        registry.addInterceptor(avoidDuplicateSubmissionInterceptor()).excludePathPatterns("/index/*");
     }
 
+    // @Bean
+    // public WebListener webListener(){
+    //     return new WebListener();
+    // }
+
+    // @Bean
+    // public ServletListenerRegistrationBean<WebListener> servletListenerRegistrationBean(){
+    //     return new ServletListenerRegistrationBean<WebListener>(new WebListener());
+    // }
+
     @Bean
-    public ServletListenerRegistrationBean<WebListener> servletListenerRegistrationBean(){
-        return new ServletListenerRegistrationBean<WebListener>(new WebListener());
+    public AvoidDuplicateSubmissionInterceptor avoidDuplicateSubmissionInterceptor(){
+        return new AvoidDuplicateSubmissionInterceptor();
     }
+
 
 }

@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = {BusApplication.class})// 指定启动类
@@ -22,11 +24,10 @@ public class AppTest {
 
     @Test
     public void testAsyncTask(){
-        for (int i=0;i<10;i++){
+       for (int i=0;i<10;i++){
             asyncTaskService.executeAsyncTask(i);
             asyncTaskService.executeAsyncTaskPlus(i);
         }
-
     }
 
 }

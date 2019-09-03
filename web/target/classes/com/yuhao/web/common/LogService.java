@@ -33,8 +33,8 @@ public class LogService {
     @Value("${server.port}")
     private String serverport;
   //日志集群通过下列listname从Redis取得 odn的日志
-    @Value("${logstash.redis.list}")
-    String logstashlistname;
+  //   @Value("${logstash.redis.list}")
+  //   String logstashlistname;
     
     /**
      * 提醒日志

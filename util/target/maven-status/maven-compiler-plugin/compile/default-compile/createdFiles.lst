@@ -1,7 +1,0 @@
-com\yuhao\util\rabbitmq\user\Receiver.class
-com\yuhao\util\rabbitmq\config\RabbitMqExchangeConfig.class
-com\yuhao\util\rabbitmq\user\RabbitMqSender.class
-com\yuhao\util\rabbitmq\listener\TaReceiver.class
-com\yuhao\util\rabbitmq\config\RabbitmqConstants.class
-com\yuhao\util\rabbitmq\listener\Ta2Receiver.class
-com\yuhao\util\rabbitmq\config\RabbitMqConfig.class

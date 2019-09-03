@@ -1,5 +1,0 @@
-com\yuhao\dao\domain\vo\UserVo.class
-com\yuhao\dao\domain\model\TUserEntity.class
-com\yuhao\dao\repository\IUserRepository.class
-com\yuhao\dao\domain\pojo\ResponseMessage.class
-com\yuhao\dao\domain\pojo\RequestMessage.class

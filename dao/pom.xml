@@ -50,18 +50,23 @@
            <artifactId>spring-boot-starter-test</artifactId>
            <scope>test</scope>
        </dependency>
+      <!--引入 spring-boot-starter-data-jpa对spring-data-jpa的自动配置;对JPA\JDBC的自动配置-->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-data-jpa</artifactId>
+       </dependency>
        <!-- JPA(Java Persistence API)意即Java持久化API -->
       <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
-	<dependency>
+	<!--<dependency>
 	    <groupId>org.springframework.data</groupId>
 	    <artifactId>spring-data-jpa</artifactId>
-	</dependency>
+	</dependency>-->
 	 <!-- https://mvnrepository.com/artifact/org.eclipse.persistence/javax.persistence -->
-     <dependency>
+    <!-- <dependency>
          <groupId>org.eclipse.persistence</groupId>
          <artifactId>javax.persistence</artifactId>
          <version>2.2.1</version>
-     </dependency>
+     </dependency>-->
      <!--后台分页 依赖 插件-->
      <dependency>
          <groupId>com.github.pagehelper</groupId>
