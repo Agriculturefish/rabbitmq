@@ -22,6 +22,8 @@ public class UserService{
 	/**
 	 * 如果没有指定key，则方法参数作为key保存到缓存中
 	 * value缓存名字对应spring.cache.cache-names
+	 * @Cacheable 触发缓存入口@CacheEvict 触发移除缓存 @CacahePut 更新缓存 @Caching 将多种缓存操作分组
+	 * @CacheConfig 类级别的缓存注解，允许共享缓存名称
 	 * */
     @Cacheable(value = "myCache",key="#userid")
 	public UserVo findById(String userid) {
@@ -31,6 +33,7 @@ public class UserService{
 		BeanUtils.copyProperties(ue, uv);
 		return uv;
 	}
+
 
 }
 

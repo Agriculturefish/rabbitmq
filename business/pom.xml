@@ -70,11 +70,22 @@
           <artifactId>spring-test</artifactId>
           <version>5.0.7.RELEASE</version>
       </dependency>
-      <!--cache-->
+      <!--spring boot cache 开启-->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-cache</artifactId>
       </dependency>
+      <!--encache-->
+      <dependency>
+          <groupId>net.sf.ehcache</groupId>
+          <artifactId>ehcache</artifactId>
+      </dependency>
+      <!--redis-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-data-redis</artifactId>
+      </dependency>
+
   </dependencies>
   
 </project>

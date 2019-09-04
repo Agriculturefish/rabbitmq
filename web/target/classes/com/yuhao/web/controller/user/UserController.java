@@ -2,6 +2,7 @@
 package com.yuhao.web.controller.user;
 
 import com.yuhao.business.function.FunctionService;
+import com.yuhao.dao.domain.vo.UserVo;
 import com.yuhao.web.annotation.SubToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,7 +31,7 @@ public class UserController {
 
     //初始化下拉框
     private void initParameter(Model model){
-         model.addAttribute("name",userService.findById("1"));
+         model.addAttribute("name",userService.findById("1").getUsername());
          rabbitmqService.sendMsg("用户："+userService.findById("1")+"登录！");
 //    	 model.addAttribute("name","yuhao");
     }
