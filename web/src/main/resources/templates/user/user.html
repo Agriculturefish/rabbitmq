@@ -15,12 +15,26 @@
 2.Thymeleaf 开箱即用的特性。它提供标准和spring标准两种方言，可以直接套用模板实现JSTL、 OGNL表达式效果，避免每天套模板、该jstl、改标签的困扰。同时开发人员也可以扩展和创建自定义的方言。
 
 3.Thymeleaf 提供spring标准方言和一个与 SpringMVC 完美集成的可选模块，可以快速的实现表单绑定、属性编辑器、国际化等功能。</h6>
-
+   <h3>User</h3>
    <form method="post" action="/user/postForm">
        <span>name:</span>
        <input type="text" name="userName" th:value="${name}"/>
        <input type="text" name="subToken" th:value="${subToken}">
        <input type="submit" value="提交">
    </form>
+   <h4>Person--name</h4>
+   <form method="post" action="/person/set/name">
+       <input type="text" name="name" th:value="${name}"/>
+       <input type="submit" value="提交">
+   </form>
+   <h4>Person--person</h4>
+   <form method="post" action="/person/set/person">
+       <span>姓名：</span><input type="text" name="name" th:value="${name}"/>
+       <span>ID：</span><input type="text" name="id" th:value="${name}"/>
+       <span>年龄：</span><input type="text" name="age" />
+       <input type="submit" value="提交">
+   </form>
+   <a href="/person/get/name?key=yuhao">获取姓名</a>
+   <a href="/person/get/person?key=yuhao">获取</a>
 </body>
 </html>

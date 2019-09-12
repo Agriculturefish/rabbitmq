@@ -18,7 +18,7 @@ public class ScheduledTaskService {
      * Scheduled声明计划任务
      * fixedRate在指定时间执行
      * */
-    @Scheduled(fixedRate = 50000)
+    @Scheduled(fixedRate = 500000000)
     public void reportCurrentTime(){
         logger.info("每隔五秒执行一次"+dateFormat.format(new Date()));
     }
